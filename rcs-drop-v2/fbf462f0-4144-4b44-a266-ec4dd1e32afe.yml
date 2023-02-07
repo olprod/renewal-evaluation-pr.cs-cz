@@ -1,0 +1,40 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: 'Create a query pool with up to seven additional query replicas (eight total, including your server).'
+    description: 'With scale out, client queries are distributed among multiple ''query replicas'' in a query pool. Query replicas have synchronized copies of your tabular models. By spreading the query workload, response times during high query workloads can be reduced. Model processing operations can be separated from the query pool, ensuring client queries are not adversely affected by processing operations.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: B
+    text: Simplify the query or its calculations if the query is too memory intensive.
+    description: Analysis Services pre-allocates a modest amount of memory at startup so requests can be handled immediately. Additional memory is allocated as query and processing workloads increase.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 60
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-analytics.I
+    - waf-config-golive.pillars.performance
+stem: ''
+isRequired: false
+uid: fbf462f0-4144-4b44-a266-ec4dd1e32afe
+name: How are you handling user load?

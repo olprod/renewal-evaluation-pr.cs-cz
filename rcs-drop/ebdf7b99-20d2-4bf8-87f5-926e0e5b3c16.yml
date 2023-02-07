@@ -1,0 +1,32 @@
+### YamlMime:QuestionSet
+scenario: |-
+  A company uses Exchange Online. 
+
+  A user reports that their Outlook desktop app is not loading the contents of their mailbox. 
+
+  You need to troubleshoot the issue. 
+
+  What should you review? 
+questionnaireUid: d8427e42-8c16-40e5-92ae-2faa3fd9a78e
+questions:
+  - uid: ebdf7b99-20d2-4bf8-87f5-926e0e5b3c16-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: 'A company uses Exchange Online. '
+        isCorrect: false
+      - id: 1
+        text: 'A user reports that their Outlook desktop app is not loading the contents of their mailbox. '
+        isCorrect: false
+      - id: 2
+        text: 'You need to troubleshoot the issue. '
+        isCorrect: false
+      - id: 3
+        text: 'What should you review? '
+        isCorrect: true
+    manualId: MS220.4.1
+uid: ebdf7b99-20d2-4bf8-87f5-926e0e5b3c16
+title: ''
+manualId: ''

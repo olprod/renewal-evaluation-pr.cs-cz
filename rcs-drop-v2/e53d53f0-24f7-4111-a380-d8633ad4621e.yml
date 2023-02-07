@@ -1,0 +1,378 @@
+### YamlMime:AssessmentRecommendation
+iconUrl: ''
+description: ''
+links:
+  - title: Identify databases that have a high potential impact and/or a high potential exposure to risk
+    url: /azure/azure-sql/database/sql-vulnerability-assessment?view=azuresql&tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.f5e9a708-1433-4695-850f-9a82fd346bd7.A
+      scoreOf: []
+    context: SQL vulnerability assessment is a service that provides visibility into your security state. Vulnerability assessment includes actionable steps to resolve security issues and enhance your database security. It can help you to monitor a dynamic database environment where changes are difficult to track and improve your SQL security posture.
+    priority: 75
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Consider restricting access to any Storage Accounts with which the database interacts
+    url: /azure/storage/common/authorize-data-access
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.f5e9a708-1433-4695-850f-9a82fd346bd7.B
+      scoreOf: []
+    context: 'When data is accessed in storage account, the client application makes a request over HTTP/HTTPS to Azure Storage. By default, every resource in Azure Storage is secured. Every request to a secure resource must be authorized. Authorization ensures  client application has  appropriate permissions to access  resource in your storage account.'
+    priority: 95
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Sensitive data must not be stored in plaintext
+    url: /sql/relational-databases/security/encryption/always-encrypted-database-engine?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.f5e9a708-1433-4695-850f-9a82fd346bd7.C
+      scoreOf: []
+    context: 'The Database Engine does not operate on plain text data stored in encrypted columns. It supports some queries on encrypted data, depending on the encryption type for the column. The two types of encryptions are randomized and deterministic.'
+    priority: 80
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Use data masking to protect sensitive data from unauthorized application users
+    url: /azure/azure-sql/database/dynamic-data-masking-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.f5e9a708-1433-4695-850f-9a82fd346bd7.D
+      scoreOf: []
+    context: 'Dynamic data masking prevents unauthorized access to sensitive data; it enables customers to choose the amount of sensitive data that can be revealed, with minimal impact on the application layer.'
+    priority: 82
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Enable Azure Defender for SQL and create a security baseline for each database
+    url: /azure/azure-sql/database/azure-defender-for-sql
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0aa4bfce-d46b-41cb-a8cf-b1c86ebb4632.A
+      scoreOf: []
+    context: 'Microsoft Defender for Cloud provides a set of advanced SQL security capabilities, including SQL Vulnerability Assessment, and Advanced Threat Protection.'
+    priority: 85
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Establish lines of responsibility
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0aa4bfce-d46b-41cb-a8cf-b1c86ebb4632.C
+      scoreOf: []
+    context: "Refers the compliance domains\_and\_security controls\_for Azure SQL Database and SQL Managed Instance. You can assign the built-ins for a\_security control\_individually to make your Azure resources compliant with the specified standard."
+    priority: 44
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Ensure the security team has read-only access for all environments
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0aa4bfce-d46b-41cb-a8cf-b1c86ebb4632.D
+      scoreOf: []
+    context: Secure a database in Azure SQL Database.
+    priority: 64
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Rotate all keys per the compliance requirement of your organization
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0aa4bfce-d46b-41cb-a8cf-b1c86ebb4632.E
+      scoreOf: []
+    context: 'Microsoft recommends to use Azure Key Vault to manage access keys, and regularly rotate and regenerate keys. Using Azure Key Vault helps to rotate keys without interrupting your applications.'
+    priority: 57
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Assign a security incident notification contact
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0aa4bfce-d46b-41cb-a8cf-b1c86ebb4632.F
+      scoreOf: []
+    context: 'Advanced Threat Protection for Azure SQL Database detects anomalous activities indicating unusual and potentially harmful attempts to access or exploit databases. Advanced Threat Protection can identify Potential SQL injection, access from unusual location or data center, access from unfamiliar principal or potentially harmful application, and Brute force SQL credentials - see more details in Advanced Threat Protection alerts.'
+    priority: 53
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Regularly review access from high privileged accounts in audit logs
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0aa4bfce-d46b-41cb-a8cf-b1c86ebb4632.G
+      scoreOf: []
+    context: 'Auditing for Azure SQL Database and Azure Synapse Analytics tracks database events and writes them to an audit log in your Azure storage account, Log Analytics workspace, or Event Hubs. Helps maintain regulatory compliance, understand database activity, and gain insight into discrepancies and anomalies that could indicate business concerns or suspected security violation.'
+    priority: 54
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Use blueprints to consistently deploy environments that comply with organizational policies
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0aa4bfce-d46b-41cb-a8cf-b1c86ebb4632.H
+      scoreOf: []
+    context: 'Blueprints are a declarative way to orchestrate the deployment of various resource templates and artifacts such as: Role Assignments, Policy Assignments, Azure Resource Manager (ARM) templates, and Resource Groups.'
+    priority: 50
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Audit and enforce policy compliance
+    url: /azure/azure-sql/database/security-controls-policy
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0aa4bfce-d46b-41cb-a8cf-b1c86ebb4632.I
+      scoreOf: []
+    context: 'Regulatory Compliance in Azure Policy provides Microsoft created and managed initiative definitions, known as built-ins, for the compliance domains and security controls related to different compliance standards. This page lists the compliance domains and security controls for Azure SQL Database and SQL Managed Instance.'
+    priority: 51
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Data remains encrypted while traversing application tiers
+    url: /azure/azure-sql/database/security-best-practice#network-security
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.f78b22a1-e6c9-4978-979f-dffa56063efa.A
+      scoreOf: []
+    context: 'Best practices to prevent client machines and applications from well-known vulnerabilities (for example, using older TLS protocols and cipher suites) from connecting to Azure SQL Database and SQL Managed Instance.'
+    priority: 56
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Enable transparent data encryption (TDE) to keep data encrypted at rest
+    url: /azure/azure-sql/database/transparent-data-encryption-tde-overview?tabs=azure-portal
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.f78b22a1-e6c9-4978-979f-dffa56063efa.B
+      scoreOf: []
+    context: 'By default, newly created databases in SQL Database are encrypted using service-managed transparent data encryption. The following are not encrypted by default: Existing SQL databases created before May 2017, and SQL databases created through restore, geo-replication, and database copy, Existing SQL Managed Instance databases created before February 2019. SQL Managed Instance databases created through restore inherit encryption status from the source. To restore an existing TDE-encrypted database, the required TDE certificate must be imported into the SQL Managed Instance.'
+    priority: 50
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Periodically rotate keys stored in Azure Key Vault
+    url: /azure/azure-sql/database/transparent-data-encryption-byok-key-rotation?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.f78b22a1-e6c9-4978-979f-dffa56063efa.C
+      scoreOf: []
+    context: "The link describes key rotation for a\_server\_using a TDE protector from Azure Key Vault. Rotating the logical TDE Protector for a server means switching to a new asymmetric key that protects the databases on the server."
+    priority: 55
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Use strongest available cypher for data encryption
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.f78b22a1-e6c9-4978-979f-dffa56063efa.D
+      scoreOf: []
+    context: 'Best practices to prevent client machines and applications from well-known vulnerabilities (for example, using older TLS protocols and cipher suites) from connecting to Azure SQL Database and SQL Managed Instance.'
+    priority: 49
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Consider managing Always Encrypted keys with role separation if you're using Always Encrypted
+    url: /sql/relational-databases/security/encryption/overview-of-key-management-for-always-encrypted?view=sql-server-ver15
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.f78b22a1-e6c9-4978-979f-dffa56063efa.E
+      scoreOf: []
+    context: 'Always Encrypted keys and key management is important to understand the difference between cryptographic keys, and the metadata objects that describe the keys. We use the terms ''column encryption key'' and ''column master key'' to refer to the actual cryptographic keys, and we use ''column encryption key metadata'' and ''column master key metadata'' to refer to the Always Encrypted key descriptions in the database.'
+    priority: 49
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: 'When possible, avoid using SQL authentication and manage identities centrally using AAD'
+    url: /azure/azure-sql/database/authentication-aad-configure?tabs=azure-powershell
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0c110dd5-e050-49de-ba19-32edaad202ce.A
+      scoreOf: []
+    context: 'Steps to create and populate an Azure Active Directory (Azure AD) instance, and use Azure AD with Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics. For an overview, refer to Azure Active Directory authentication.'
+    priority: 56
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Consider monitoring Azure AD group membership changes using Azure AD audit activity reports
+    url: /azure/active-directory/reports-monitoring/concept-audit-logs
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0c110dd5-e050-49de-ba19-32edaad202ce.B
+      scoreOf: []
+    context: 'With the audit logs in Azure AD, you get access to records of system activities for compliance. The most common views of the log are based on the following categories: User management, Group management, Application management.'
+    priority: 51
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Security principals must not be provided direct permissions
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0c110dd5-e050-49de-ba19-32edaad202ce.C
+      scoreOf: []
+    context: Playbook to address common security requirements with Azure SQL Database and Azure SQL Managed Instance.
+    priority: 49
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Use built-in roles only when the minimum permission needed by the user matches the permissions assigned to the roles
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0c110dd5-e050-49de-ba19-32edaad202ce.D
+      scoreOf: []
+    context: 'Use built-in roles (if available) or Azure custom roles, and assign the necessary permissions in Azure Resource Manager.'
+    priority: 51
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Consider securing passwords and secrets in Azure Key Vault and rotate them periodically if Password-based authentications cannot be avoided
+    url: /azure/key-vault/secrets/about-secrets
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0c110dd5-e050-49de-ba19-32edaad202ce.E
+      scoreOf: []
+    context: 'Key Vault provides secure storage of generic secrets, such as passwords, and database connection string.'
+    priority: 64
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Consider multi-factor authentication for interactive database authentication
+    url: /azure/azure-sql/database/authentication-mfa-ssms-configure
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0c110dd5-e050-49de-ba19-32edaad202ce.F
+      scoreOf: []
+    context: 'Steps to use Azure Active Directory (Azure AD) Multi-Factor Authentication (MFA) with SQL Server Management Studio (SSMS). Azure AD MFA can be used when connecting SSMS or SqlPackage.exe to Azure SQL Database, Azure SQL Managed Instance, and Azure Synapse Analytics.'
+    priority: 48
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: 'Restrict user access by implementing access control policies using RLS, roles with least privileges'
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.0c110dd5-e050-49de-ba19-32edaad202ce.G
+      scoreOf: []
+    context: Playbook to address common security requirements with Azure SQL Database and Azure SQL Managed Instance.
+    priority: 52
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Use the latest supported version of TLS for client machines connecting to Azure SQL DB
+    url: /azure/azure-sql/database/security-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.e8ac91e2-03e5-4c4f-8074-cc1767e6c19d.A
+      scoreOf: []
+    context: 'SQL Database, SQL Managed Instance, and Azure Synapse Analytics enforce encryption (SSL/TLS) for all connections. This ensures data is encrypted ''in transit'' between the client and server, irrespective of the setting of Encrypt or TrustServerCertificate in the connection string.'
+    priority: 52
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Create a private endpoint for the server using a Private Link and disable the public endpoint if possible
+    url: /azure/azure-sql/database/private-endpoint-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.e8ac91e2-03e5-4c4f-8074-cc1767e6c19d.B
+      scoreOf: []
+    context: 'Private Link allows  to connect various PaaS services in Azure through a private endpoint. For a list of PaaS services that support Private Link functionality, go to the Private Link Documentation page. A private endpoint is a private IP address within a specific VNet and subnet.'
+    priority: 58
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Evaluate and set ‘Allow Access to Azure services’ to OFF and Deny Public network to ON at the server-level
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.e8ac91e2-03e5-4c4f-8074-cc1767e6c19d.C
+      scoreOf: []
+    context: Minimize the number of features that can be attacked by a malicious user. Implement network access controls for Azure SQL Database; Set Allow Access to Azure services to OFF at the server-level; Use VNet Service endpoints and VNet Firewall Rules; Use Private Link.
+    priority: 58
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Consider using private endpoints or VNet Firewall rules over IP Firewall rules and only allow traffic from the subnet containing your application infrastructure
+    url: /azure/azure-sql/database/private-endpoint-overview
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.e8ac91e2-03e5-4c4f-8074-cc1767e6c19d.D
+      scoreOf: []
+    context: 'Clients can connect to a private endpoint from the same virtual network or a peered virtual network in same region; or through virtual network to virtual network connection across regions. Additionally, clients can connect from on-premises using ExpressRoute, private peering, or VPN tunneling.'
+    priority: 55
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Establish a lifecycle management policy for critical impact accounts
+    url: /azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.71f6ac26-f836-4943-8a09-3b63f7b72d5c.B
+      scoreOf: []
+    context: Provide best practices to solve common security requirements. Not all requirements are applicable to all environments; consult your database and security team to implement features.
+    priority: 51
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Configure appropriate emergency access accounts
+    url: /azure/azure-sql/database/security-best-practice
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.71f6ac26-f836-4943-8a09-3b63f7b72d5c.C
+      scoreOf: []
+    context: Provide best practices to solve common security requirements. Not all requirements are applicable to all environments; consult your database and security team to implement features.
+    priority: 49
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+  - title: Simulate attacks against critical impact accounts
+    url: 'https://azure.microsoft.com/en-us/blog/azure-sql-database-threat-detection-your-built-in-security-expert/'
+    condition:
+      allOf: []
+      anyOf: []
+      noneOf:
+        - ed15be10-553c-42e7-921d-f34da37df85f.71f6ac26-f836-4943-8a09-3b63f7b72d5c.A
+      scoreOf: []
+    context: 'Azure SQL Database Threat Detection is incredibly easy to enable. You simply navigate to the Auditing and Threat Detection configuration blade for your database in the Azure management portal. There you switch on Auditing and Threat Detection, and configure at least one email address for receiving alerts.'
+    priority: 64
+    reportingCategory: Security & Compliance
+    reportingSubCategory: Operational Security
+uid: e53d53f0-24f7-4111-a380-d8633ad4621e
+name: ''

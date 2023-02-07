@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You've developed a volume analysis model for device and message behavior and provisioned your IoT hub appropriately
+    description: Choose the right IoT Hub tier for your solution. Ensure that you understand the throttling limits of the various services and have scaled them appropriately. Build your volume analysis model such that it takes into consideration burst traffic.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You've implemented an automated scaling procedure for IoT Hub
+    description: |
+      Just as scale up, establish an approach for scale down. Keep in mind that auto-scaling S3 units should be done with due consideration, as the cost increases more significantly as the SKU goes to higher levels.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: Your solution operates within the limit of IoT Hub scale limits for the chosen tier
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: IoT Hub tiers are provisioned with a maximum daily quota of messages that you can send to the service. The message size used to calculate the daily quota is  0.5 KB for a free tier hub and 4 KB for all other tiers. Each of the tiers also have operation throttles and other limits that you should take into account when you provision your IoT Hub units.
+isRequired: false
+uid: 0788a7e6-fa1a-4fab-844f-c11cd2779511
+name: IoT Hub tiers are provisioned with a maximum daily quota of messages that you can send to the service. The message size used to calculate the daily quota is  0.5 KB for a free tier hub and 4 KB for all other tiers.

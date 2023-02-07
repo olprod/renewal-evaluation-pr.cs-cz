@@ -1,0 +1,14 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: Innovation security protects the processes and data of innovation against cyberattacks. Innovation in the digital age takes the form of developing applications using the DevOps or DevSecOps method to rapidly innovate without waiting for the traditional waterfall ship schedule that can take months or years between releases.
+hideEmptyGuidance: false
+questions:
+  - 49433291-5b4f-4c2b-b32a-241cc08a4047
+  - 32ad52b7-2feb-42f0-b68b-e7be99249f8f
+  - 840a292e-777d-4cee-add4-16311cb54bfc
+recommendations:
+  - da4f1fec-74a2-4e77-8a0e-c16df1b1c744
+assignedGroupIds:
+  - 38985878-05d0-4299-8c18-34eb67b405ce
+uid: 50554db0-257a-44f7-8767-92cf33a46ea1
+name: Innovation Security

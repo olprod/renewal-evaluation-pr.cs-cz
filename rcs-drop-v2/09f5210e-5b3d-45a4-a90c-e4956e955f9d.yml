@@ -1,0 +1,17 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: '"Why are we moving to the cloud?" It''s a common question for business and technical stakeholders alike. Identifying motivations behind cloud migration that can help produce more successful business outcomes'
+hideEmptyGuidance: false
+questions:
+  - d742f700-2d98-44ed-9372-e56d4a40b4d3
+  - 977afcd7-6aa3-4432-bd75-0fb0d8a5032a
+  - a931c8bb-3bb7-4772-b1b8-f9ec4d77dc73
+  - 3d2a05e0-9150-4c4f-a86b-cb18f5b54ad5
+  - 00ca3ce8-e4af-4e7c-96d8-44cb380ccafb
+  - f5198e6e-cde7-4811-a122-b8b69a8a7717
+  - d0177763-0145-4c4d-b4a7-8aaaf829cd1b
+recommendations:
+  - c01f3b71-8ebb-4d3a-86d2-875c27dd0efa
+assignedGroupIds: []
+uid: 09f5210e-5b3d-45a4-a90c-e4956e955f9d
+name: Identifying your motivations

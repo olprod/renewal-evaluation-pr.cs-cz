@@ -1,0 +1,41 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: We have not yet established the Charter for COE
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+  - id: '1'
+    text: 'We have practice in place as adhoc, we have not yet established COE Charter'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '2'
+    text: 'We have Charter in place, Practices and Resources defined per Charter'
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: ''
+isRequired: true
+uid: bdcce5e5-2799-4480-95bf-6c95eb24b03c
+name: Do you have established COE Charter?

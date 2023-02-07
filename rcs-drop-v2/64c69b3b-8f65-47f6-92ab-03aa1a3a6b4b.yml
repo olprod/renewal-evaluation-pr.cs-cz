@@ -1,0 +1,11 @@
+### YamlMime:QuestionnaireV2
+questionnaireType: SelfAssessment
+description: "A business case provides a view of the technical and financial timeline of your environment and can represent the opportunities for reinvestment into further modernization. Developing a business case includes building a financial plan that takes technical considerations into account and aligns with\_business outcomes."
+hideEmptyGuidance: false
+questions:
+  - 1df169f6-e0a1-4731-9f51-26824d29a056
+recommendations:
+  - eebb9345-024f-4c59-9dd0-3edaef8b95b3
+assignedGroupIds: []
+uid: 64c69b3b-8f65-47f6-92ab-03aa1a3a6b4b
+name: Creating your business case

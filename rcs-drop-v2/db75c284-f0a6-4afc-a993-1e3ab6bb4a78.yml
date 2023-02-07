@@ -1,0 +1,55 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: Limited. Your organization is not aware of or does not follow a set of architectural principles and pay little attention to rationalizing your data estate.
+    description: Your organization does not follow a set of architectural principles and pay little attention to rationalizing your data estate.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 1
+  - id: '1'
+    text: Evolving. Your organization is aware of a set of architectural principles that exist to help prioritize technical effort and plan to utilize these to rationalizing your data estate.
+    description: Your organization is aware of a set of architectural principles that exist to help prioritize technical effort and plan to utilize these to rationalizing your data estate.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 2
+  - id: '2'
+    text: Acceptable. Your organization is familiar with the five architectural constructs that are detailed in the Azure Well-Architected Framework.
+    description: Your organization is familiar with the five architectural constructs that are detailed in the Azure Well-Architected Framework and follow some of the guidance provided to help apply these principles to the management of your data workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 3
+  - id: '3'
+    text: Advanced. Your organizations regularly consider most of the five architectural constructs that are detailed in the Azure Well-Architected Framework and follow some of the guidance provided to help apply these principles to the management of your data workloads.
+    description: Your organizations regularly consider most of the five architectural constructs that are detailed in the Azure Well-Architected Framework and follow some of the guidance provided to help apply these principles to the management of your data workloads.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 4
+  - id: '4'
+    text: Optimized. Your organization is regularly following guidance on Well Architected Frameworks to leverage how applying these principles to the management of your data workloads will help better manage your analytics estate.
+    description: Your organization is religiously following guidance on Well Architected Frameworks to leverage how applying these principles to the management of your data workloads will help better manage your analytics estate.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 5
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: SingleSelect
+condition:
+  allOf: []
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: Do you follow any number of architectural principles to rationalise your data estate and data workloads?
+isRequired: true
+uid: db75c284-f0a6-4afc-a993-1e3ab6bb4a78
+name: Do you follow any number of architectural principles to rationalise your data estate and data workloads?

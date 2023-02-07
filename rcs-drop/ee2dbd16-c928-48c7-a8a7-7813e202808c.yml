@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You plan to implement an Adaptive Card task module.
+
+  You can only use Adaptive Cards in Microsoft Teams and the Microsoft Bot Framework.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 3de43e87-9216-40a9-8141-c796b7dc1e34
+questions:
+  - uid: ee2dbd16-c928-48c7-a8a7-7813e202808c-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You plan to implement an Adaptive Card task module.
+        isCorrect: false
+      - id: 1
+        text: You can only use Adaptive Cards in Microsoft Teams and the Microsoft Bot Framework.
+        isCorrect: true
+uid: ee2dbd16-c928-48c7-a8a7-7813e202808c
+title: Select Yes if the statement is true.

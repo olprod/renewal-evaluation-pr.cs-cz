@@ -1,0 +1,47 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: 'You have set the environmental variables (For example OptimizedForPerformance, UsePersistentStorage, MessageCleanupIntervalSecs).'
+    description: You use a connected registry for local caching and deployment of container images.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '1'
+    text: You have edgeHub folder in a dedicated disk (controller) and verified the latest IoTEdge release.
+    description: 'There are defined guidelines and standards for container images. For example, allowed base images and allowed software.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: '2'
+    text: 'You are using Connected registry for local caching and deployment of container images. And have guidelines, standards for images defined.'
+    description: You don't use IoT Edge modules and container images.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 33
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.performance
+stem: 'Gateway devices running IoT Edge use modules (Docker containers) to maintain and deploy modular workloads. Software updates require updates to the container images that need to be deployed to the gateways, which affects bandwidth usage and performance.'
+isRequired: false
+uid: 5115fbcc-f6fc-4cb2-a446-3ca3e8e51323
+name: 'Gateway devices running IoT Edge use modules (Docker containers) to maintain and deploy modular workloads. Software updates require updates to the container images that need to be deployed to the gateways, which affects bandwidth usage and performance.'

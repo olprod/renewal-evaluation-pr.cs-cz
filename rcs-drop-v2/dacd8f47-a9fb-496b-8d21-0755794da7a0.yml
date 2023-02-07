@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: The approval process is infrequent
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: '1'
+    text: The program/project office decision is the approval for deployment
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: We have meetings before the deployment that sets our approval
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: Using gates and team approvals to control our deployment
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '4'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+stem: 'The quality signals used to approve deployments should be tracked constantly every day. While it''s not critical for every service to always be available, teams should approach their DevOps delivery and operation stages with the mindset that they can and should be deploying new versions without having to take them down for any time at all.'
+isRequired: true
+uid: dacd8f47-a9fb-496b-8d21-0755794da7a0
+name: 'The quality signals used to approve deployments should be tracked constantly every day. '

@@ -1,0 +1,50 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You use encryption to protect IoT data in transit and at rest.
+    description: 'It''s critical to ensure that device-to-cloud communication is secure and encrypted using the latest Transport Layer Security (TLS) standards, such as TLS 1.2+. If data is stored on devices, at rest, standard encryption algorithms should be used.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '1'
+    text: You use data classification strategies to categorize data access based on levels of sensitivity.
+    description: Data classification lets you determine and assign value to your organization's data and provides a common starting point for governance.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: '2'
+    text: Your IoT data use complies with regulatory requirements.
+    description: 'Data governance is how you ensure data that''s used in your business operations, reports, and analysis is discoverable, accurate, trusted, and can be protected.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 40
+  - id: '3'
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.security
+  anyOf: []
+  noneOf: []
+  scoreOf: []
+stem: 'Protect data that''s ingested into the IoT solution by following the guidance in the Azure Well-Architected Framework and adopting data classification and governance strategies. For IoT solutions, these principles also extend to the devices. You should ensure that device-to-cloud communication is secure and encrypted using the latest Transport Layer Security (TLS) standards. If data is stored on devices, standard encryption algorithms should be used.'
+isRequired: false
+uid: 1eb139a9-f0a7-4e8a-9b73-d1834ef6b1a3
+name: 'Protect data that''s ingested into the IoT solution by following the guidance in the Azure Well-Architected Framework and adopting data classification and governance strategies. For IoT solutions, these principles also extend to the devices.'

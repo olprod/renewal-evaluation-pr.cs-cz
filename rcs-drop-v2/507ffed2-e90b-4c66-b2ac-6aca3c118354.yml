@@ -1,0 +1,43 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: '0'
+    text: You adjusted the number of partitions as required
+    description: "The number of partitions is specified at creation and must be between 1 and 32. You can dynamically add partitions when using\_premium\_and\_dedicated\_tiers. You should consider long-term scale when setting partition count when with other tiers. Partitions are a data organization mechanism that relates to the downstream parallelism required in consuming applications. The number of partitions in an Event hub directly relates to the number of concurrent readers you expect to have."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: '1'
+    text: You're using the default partition configuration
+    description: "Azure IoT Hub uses many core components of\_Azure Event Hubs, including\_partitions. Event streams for IoT Hubs are generally populated with incoming telemetry data that's reported by various IoT devices. The partitioning of the event stream is used to reduce the contention that occurs when concurrently reading and writing to event streams."
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: ''
+  url: ''
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.waf-scenario.iot
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.reliability
+stem: |-
+  The IoT Hub service uses many core components of the Azure Event Hubs service, including partitions. An IoT hub populates its event streams with incoming telemetry from various connected IoT devices. Event stream partitions are used to reduce the contention that occurs when concurrently reading and writing to the event stream.
+
+  You choose the partition limit when an IoT hub is created, and this limit can't then be changed. The maximum partition limit for basic and standard tier IoT hubs is 32.
+isRequired: false
+uid: 507ffed2-e90b-4c66-b2ac-6aca3c118354
+name: 'The IoT Hub service uses many core components of the Azure Event Hubs service, including partitions. An IoT hub populates its event streams with incoming telemetry from various connected IoT devices.'

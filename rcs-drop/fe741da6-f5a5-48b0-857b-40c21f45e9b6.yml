@@ -1,0 +1,22 @@
+### YamlMime:QuestionSet
+scenario: |-
+  You are developing a Microsoft Teams App that displays user’s inbox in a personal tab using Microsoft Graph. The app will be configured for SSO.
+
+  You must retrieve the user’s access token by using the Teams JavaScript SDK and you must initiate the OAuth2 On-Behalf-Of (OBO) flow before calling Microsoft Graph.
+
+  Select Yes if the statement is true. Otherwise, select No.
+questionnaireUid: 19f3abd1-79e9-4b47-89b7-5b18f23554f5
+questions:
+  - uid: fe741da6-f5a5-48b0-857b-40c21f45e9b6-q-0
+    title: ''
+    prompt: ''
+    type: SingleSelect
+    choices:
+      - id: 0
+        text: You are developing a Microsoft Teams App that displays user’s inbox in a personal tab using Microsoft Graph.
+        isCorrect: true
+      - id: 1
+        text: The app will be configured for SSO.
+        isCorrect: false
+uid: fe741da6-f5a5-48b0-857b-40c21f45e9b6
+title: You must retrieve the user’s access token by using the Teams JavaScript SDK and you must initiate the OAuth2 On-Behalf-Of (OBO) flow before calling Microsoft Graph.

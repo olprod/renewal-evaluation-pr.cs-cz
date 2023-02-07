@@ -1,0 +1,79 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: An Application Performance Management (APM) tool like Azure Application Insights is used to collect application level logs
+    description: Is an Application Performance Management (APM) tool used collect application level logs?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 20
+  - id: B
+    text: Application logs are collected from different application environments
+    description: Are application logs collected from different application environments?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: C
+    text: Log messages are captured in a structured format and can be indexed and searched
+    description: Are log messages captured in a structured format?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 10
+  - id: D
+    text: Application events are correlated across all application components
+    description: 'Events coming from different application components or different component tiers of the application should be correlated to build end-to-end transaction flows. For instance, this is often achieved by using consistent correlation IDs transferred between components within a transaction.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 22
+  - id: E
+    text: It is possible to evaluate critical application performance targets and non-functional requirements based on application logs and metrics
+    description: Is it possible to evaluate critical application performance targets and non-functional requirements (NFRs)?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 17
+  - id: F
+    text: End-to-end performance of critical system flows is monitored
+    description: Is the end-to-end performance of critical system flows monitored?
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 12
+  - id: H
+    text: Black-box monitoring is used to measure platform services and the resulting customer experience.
+    description: Black-box monitoring tests externally visible application behavior without knowledge of the internals of the system. This is a common approach to measuring customer-centric SLIs/SLOs/SLAs.
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 9
+  - id: G
+    text: None of the above.
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+video:
+  title: 'Operational excellence: Monitoring your resources'
+  url: 'https://www.microsoft.com/en-us/videoplayer/embed/RWKhpi'
+  context: ''
+  priority: 0
+  reportingCategory: ''
+  reportingSubCategory: ''
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+  anyOf:
+    - 8290e609-cb46-4b31-ac7c-1c7f59272735.workload.core
+    - waf-config-data.workload.core
+    - waf-config-golive.waf-scenario.core
+stem: In order to successfully maintain a workload it's important to 'turn the lights on' and have clear visibility of important metrics both in real-time and historically.
+isRequired: false
+legacyId: resource-monitoring
+uid: 9f2921b6-df60-4c55-bde2-f5d47d1ba9dd
+name: In order to successfully maintain a workload it's important to 'turn the lights on' and have clear visibility of important metrics both in real-time and historically.

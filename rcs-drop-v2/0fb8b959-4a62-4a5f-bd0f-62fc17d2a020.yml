@@ -1,0 +1,34 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: A
+    text: Use Azure Synapse Analytics Columnstore Indexes.
+    description: 'A columnstore index can provide a very high level of data compression, typically by 10 times, to significantly reduce your data warehouse storage cost.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: B
+    text: Govern & curate data in your data lake store to ensure there is no un-necessary duplication of data or data sprawl.
+    description: TBD
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 50
+  - id: NOA
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - waf-config-golive.database-services.G
+    - waf-config-golive.pillars.cost
+stem: ''
+isRequired: false
+legacyId: storage-data-synapse
+uid: 0fb8b959-4a62-4a5f-bd0f-62fc17d2a020
+name: How do you manage the storage footprint of your digital assets?

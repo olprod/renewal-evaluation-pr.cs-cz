@@ -1,0 +1,48 @@
+### YamlMime:NormalSelectQuestion
+responseAlternatives:
+  - id: H
+    text: Use machine learning pipelines to orchestrate the workflow.
+    description: 'Azure Machine Learning pipelines allow you to create multiple steps for model orchestration, which enables distribution, caching, code-first, and reuse.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '1'
+    text: Use Github Actions with Azure Machine Learning.
+    description: Use GitHub Actions and Azure Machine Learning to train and deploy a machine learning model
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '2'
+    text: Use MLFlow to track and manage ML modeling projects
+    description: 'MLFlow manages the lifecycle of your machine learning experiment, including logging and tracking your training run metrics and model artifacts. '
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '3'
+    text: Use Team Data Science Process for the data science project lifecycle.
+    description: 'The Team Data Science Process outlines steps of a collaborative data science project and how they are executed iteratively. Steps include business understanding, data acquisition and understanding, modeling, and monitoring.'
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 25
+  - id: '6'
+    text: None of the above
+    description: ''
+    imageUrl: ''
+    isCorrect: false
+    score:
+      value: 0
+type: AssessmentQuestion
+kind: MultiSelect
+condition:
+  allOf:
+    - 5c915986-fbdf-4f6f-b28c-c36e5af606f3.pillars.operational
+    - waf-config-golive.waf-scenario.ai
+stem: 'Migrating to modern CI/CD processes provides many benefits for application builds, deployments, testing, and monitoring.'
+isRequired: false
+legacyId: '0'
+uid: 62d24fd5-0739-4f51-8e07-811274c06c88
+name: 'Migrating to modern CI/CD processes provides many benefits for application builds, deployments, testing, and monitoring.'
